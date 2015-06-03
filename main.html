@@ -1,13 +1,23 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
 </head>
 <body>
+<div class="main">
+    <p class="help-text">Hold X to make a cool pose.<br /> Mouse over to prepare to fire. <br />Click to Hadouken!</p>
+    <div id="ryu" class="ryu">
+        <div id="ryu-still" class="ryu-still"></div>
+        <div id="ryu-ready" class="ryu-ready"></div>
+        <div id="ryu-throwing" class="ryu-throwing"></div>
+        <div id="ryu-cool" class="ryu-cool"></div>
+    </div>
+    <div id="hadouken" class="hadouken"></div>
+    <audio id="haouken-sound" src="sound/hadouken.mp3">
+</div>
 </body>
 </html>
